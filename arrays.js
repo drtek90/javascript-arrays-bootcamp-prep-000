@@ -10,7 +10,7 @@ function addElementToBeginningOfArray(array,element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element) {
-  array = array.unshift(element);
+  array.unshift(element);
   return array
 }
 
@@ -20,10 +20,11 @@ function addElementToEndOfArray(array,element) {
 }
 
 function destructivelyAddElementToEndOfArray(array,element) {
-  return array.push(element);
+  array.push(element);
+  return array;
 }
 
-function accessElementInArray(array,index){
+function accessElementInArray(array, index){
   console.log(array[index]);
 }
 
