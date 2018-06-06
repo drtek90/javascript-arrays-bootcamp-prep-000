@@ -28,11 +28,11 @@ function accessElementInArray(array,index){
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
   var array2 = array.shift();
-  return array2
+  return array2;
 }
 
 function removeElementFromBeginningOfArray(array){
-  return array.slice(1)
+  return array.slice(1);
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
